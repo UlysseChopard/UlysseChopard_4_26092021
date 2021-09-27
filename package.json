@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "live-server --open=index.html"
+    "start": "live-server --open=index.html",
+    "test:css": "w3c-css http://localhost:8080 --host=0.0.0.0:8080"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "live-server": "^1.1.0"
+    "css-validator": "^0.10.0",
+    "live-server": "^1.1.0",
+    "w3c-validator-cli": "^3.3.0"
   }
 }
