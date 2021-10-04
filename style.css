@@ -648,7 +648,8 @@ h6,
 p,
 label,
 .btn,
-a {
+a
+blockquote {
     font-family: "helvetica";
     font-weight: 400;
     color: #000000!important;
