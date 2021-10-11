@@ -279,6 +279,7 @@ a:hover {
 
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
+    display: inline-flex;
     padding-right: 0;
     padding-left: 0;
 }
@@ -649,11 +650,16 @@ h6,
 p,
 label,
 .btn,
-a
+a,
 blockquote {
     font-family: "helvetica";
     font-weight: 400;
-    color: #000000!important;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
@@ -687,6 +693,10 @@ p {
     margin: auto auto auto auto;
 }
 
+.text-center {
+    color: black;
+}
+
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
@@ -703,7 +713,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
@@ -758,6 +768,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
